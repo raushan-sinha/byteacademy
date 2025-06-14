@@ -13,47 +13,44 @@
 <body>
     <!-- Navbar -->
     <nav class="navbar">
-        <div class="navbar-container">
-            <!-- ByteAcademy Logo -->
-            <div class="navbar-logo">
-                <img src="Images/ByteAcademy-logo.png" alt="ByteAcademy Logo" class="logo">
-            </div>
-            <!-- Navbar toggle for Mobile menu -->
-            <div class="navbar-toggle" id="mobile-menu">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-            </div>
-            <!-- NavLinks -->
-            <div class="navLinks">
-                <ul class="nav-menu">
-                    <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
-                    <li class="nav-item"><a href="#courses" class="nav-link">Courses</a></li>
-                    <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
-                    <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
-                </ul>
-                <!-- Enroll Button -->
-                <button class="btn-enroll">
-                    <svg class="svgIcon" viewBox="0 0 512 512" height="1em" xmlns="http://www.w3.org/2000/svg">
-                        <path
-                            d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zm50.7-186.9L162.4 380.6c-19.4 7.5-38.5-11.6-31-31l55.5-144.3c3.3-8.5 9.9-15.1 18.4-18.4l144.3-55.5c19.4-7.5 38.5 11.6 31 31L325.1 306.7c-3.2 8.5-9.9 15.1-18.4 18.4zM288 256a32 32 0 1 0 -64 0 32 32 0 1 0 64 0z">
-                        </path>
-                    </svg>
-                    Enroll
-                </button>
-                <!-- Login Button-->
-                <button class="btn-login">
-                    <span class="text">Login</span>
-                    <svg class="arrow" viewBox="0 0 448 512" height="1em" xmlns="http://www.w3.org/2000/svg">
-                        <path
-                            d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z">
-                        </path>
-                    </svg>
-                </button>
-            </div>
-
+        <div class="logo">
+            <a href="#">Byte<span>Academy</span></a>
+        </div>
+        <!-- NavLinks -->
+        <div class="nav-links">
+            <ul class="links">
+                <li><a href="#" class="active">Home</a></li>
+                <li class="courses-dropdown">
+                    <a href="#">Courses <i class="fas fa-caret-down"></i></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Web Development</a></li>
+                        <li><a href="#">Mobile Development</a></li>
+                        <li><a href="#">Data Science</a></li>
+                        <li><a href="#">Machine Learning</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="loginPage.html" class="login-btn">Login</a></li>
+                <li><a href="enrollPage.html" class="signup-btn">Sign Up</a></li>
+            </ul>
+        </div>
+        <!-- Navbar buttons -->
+        <div class="nav-buttons">
+            <a href="#" class="cart-icon"><i class="fas fa-shopping-cart"></i></a>
+        </div>
+        <!-- Hamburger Icon -->
+        <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
         </div>
     </nav>
+
+
+
+
+
+
 
     <script src="script.js"></script>
 </body>

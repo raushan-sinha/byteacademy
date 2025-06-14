@@ -4,8 +4,8 @@ This is a Courses related website. Where you can get any course which is related
 <br>
 <h2>Important Steps to create 'ByteAcademy' :-</h2>
 <ul>
-    <li>1. Created a Responsive Navbar with some sections such as: ByteAcademy Logo, NavLinks[Home, Courses, About Us, Contact Us] and also implemented two buttons for 'Enroll' & 'Login' for the Users.</li>
-    <li>2. Enroll page included some Form features like Username, Email, Confirm Email, Mobile, Password, DOB, select State etc.</li>
+    <li>1. Created a Responsive Navbar with some sections such as: ByteAcademy Logo, NavLinks[Home, Courses, About Us, Contact Us] and also implemented two buttons for 'Sign up' & 'Login' for the Users.</li>
+    <li>2. Sign up page included some Form features like Username, Email, Confirm Email, Mobile, Password, DOB, select State etc.</li>
     <li></li>
     <li></li>
     <li></li>
